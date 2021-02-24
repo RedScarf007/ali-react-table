@@ -28,6 +28,7 @@ slug: /
 
 - 表格只兼容 react ^16.8.0 || ^17.0.0
 - 表格用到了大量较新的浏览器 API，只兼容较新版本的 PC 端浏览器或手机浏览器，详见[该 issue](https://github.com/alibaba/ali-react-table/issues/18)
+- 请保证你的typescript是最新的版本，至少在3.8以上，因为在代码中使用了`仅仅导入/导出声明`特性，这个特性是3.8更新的
 
 ## 相关链接
 
